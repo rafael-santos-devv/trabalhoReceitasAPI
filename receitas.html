@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receitas Online</title>
     <link rel="stylesheet" href="style.css">
-    <script src="scripts.js"></script>
 </head>
+
 <body class="pagina-receitas">
     <header>
         <h1 class="logor">Receitas Online</h1>
@@ -19,6 +20,8 @@
             <h1 id="titulo-receitas" class="nreceitas">Nossas Receitas</h1>
             <p>Escolha uma receita e encontre uma nova inspiração para a sua cozinha.</p>
         </section>
+
+        <input id="pesquisa" type="text" placeholder="Pesquisar receita...">
 
         <!-- A API poderá substituir estes cards pelos dados das receitas. -->
         <section id="lista-receitas" class="grade-receitas" aria-label="Lista de receitas" aria-live="polite">
@@ -79,10 +82,13 @@
         </section>
     </main>
 
-   <footer>
+    <footer>
         <p>Contato: contato@receitasonline.com</p>
         <p>whatsapp: (11) 1234-5678</p>
         <p>Endereço: Rua das Receitas, 123 - São Paulo, SP</p>
     </footer>
+
+    <script src="scripts.js"></script>
+
 </body>
 </html>
