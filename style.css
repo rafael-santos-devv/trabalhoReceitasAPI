@@ -30,19 +30,15 @@ header {
     cursor: pointer;
 }
 
-#pesquisa {
-    position: absolute;
-    top: 50%;
-    right: 44px;
-    transform: translateY(-50%);
+.barra-busca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 420px;
+    margin: 0 auto 24px;
 }
 
-#lupa {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-}
+
 
  
 
